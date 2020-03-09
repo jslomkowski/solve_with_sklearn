@@ -1,0 +1,8 @@
+
+*.log
+*.xlsx
+*.csv
+*.pickle
+*.v2
+.vscode/settings.json
+*.pyc
