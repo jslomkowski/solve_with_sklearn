@@ -1,19 +1,15 @@
 """
-in this demo, I would like to show how you can solve business problems not only 
-by using machine learning tools but also by more conventional algorithms like 
+in this demo, I would like to show how you can solve business problems not only
+by using machine learning tools but also by more conventional algorithms like
 scipy optimize.
 """
 
 import numpy as np
 import pandas as pd
 from scipy import optimize
-from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error
 from sklearn.preprocessing import OrdinalEncoder
-# from category_encoders import OrdinalEncoder
 from tpot import TPOTRegressor
-
-# import category_encoders as ce
 
 
 def mape(y, y_pred, weight=1):
@@ -30,7 +26,7 @@ def mape(y, y_pred, weight=1):
     Returns:
         [float] -- mape error with added bias (default = 1)
     """
-    mape = round(mean_absolute_error(y, y_pred*weight) / np.mean(y), 4)
+    mape = round(mean_absolute_error(y, y_pred * weight) / np.mean(y), 4)
     return mape
 
 
