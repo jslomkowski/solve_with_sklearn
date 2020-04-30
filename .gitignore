@@ -1,7 +1,6 @@
 
 *.log
-*.xlsx
 *.pickle
 *.v2
-.vscode/settings.json
+.vscode
 *.pyc
