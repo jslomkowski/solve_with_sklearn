@@ -5,7 +5,7 @@ Simple repo showing how you can solve business problems not only by using machin
 ## Required packages
 
 ```sh
-pip install python pandas scipy scikit-learn
+pip install pandas scipy scikit-learn
 ```
 
 In Windows, you can also install all packages I use with environment.yml provided
